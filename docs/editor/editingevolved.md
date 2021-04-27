@@ -43,7 +43,10 @@ You can turn off breadcrumbs with the **View** > **Show Breadcrumbs** toggle or 
 
 ### Breadcrumb customization
 
-The appearance of breadcrumbs can be customized. If you have very long paths or are only interested in either file paths or symbols paths, you can use the `breadcrumbs.filePath` and `breadcrumbs.symbolPath` settings. Both support `on`, `off`, and `last` and they define if or what part of the path you see. By default, breadcrumbs show file and symbol icons to the left of the breadcrumb but you can remove the icons by setting `breadcrumbs.icons` to false.
+The appearance of breadcrumbs can be customized. If you have very long paths or are only interested in either file paths or symbols paths, you can use the `breadcrumbs.filePath` and `breadcrumbs.symbolPath` settings. Both support `on`, `off`, and `last` and they define if or what part of the path you see.  t
+
+
+default, breadcrumbs show file and symbol icons to the left of the breadcrumb but you can remove the icons by setting `breadcrumbs.icons` to false.
 
 ### Symbol order in Breadcrumbs
 
@@ -81,7 +84,7 @@ Some [languages](/docs/languages/overview.md) also support jumping to the type d
 
 ## Go to Symbol
 
-You can navigate symbols inside a file with `kb(workbench.action.gotoSymbol)`. By typing `kbstyle(:)` the symbols will be grouped by category. Press `kbstyle(Up)` or `kbstyle(Down)` and navigate to the place you want.
+You can navigate symbols inside a file with `kb(workbench.action.gotoSymbol)`. By typing `kbstyle(@)` the symbols will be grouped by category. Press `kbstyle(Up)` or `kbstyle(Down)` and navigate to the place you want.
 
 ![Go to Symbol](images/editingevolved/gotosymbol.png)
 
